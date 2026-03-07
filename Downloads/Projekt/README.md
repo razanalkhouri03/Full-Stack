@@ -9,5 +9,5 @@ npm run dev
 
 ```
 cd backend
-npm run dev
+npm run start
 ```
