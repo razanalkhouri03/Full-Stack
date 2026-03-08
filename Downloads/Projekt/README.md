@@ -1,13 +1,25 @@
-# Frontend starten
+# Fullstack App (Next.js + NestJS + MongoDB)
+
+## Voraussetzungen
+
+- Docker
+- Docker Compose
+
+## Projekt starten
+
+Im Projektordner folgenden Befehl ausführen:
 
 ```
-cd frontend
-npm run dev
+docker-compose up --build
 ```
 
-# Backend starten
+## Anwendung erreichen
 
+Nach dem Start ist die App erreichbar unter:
+
+http://localhost:3000
+
+## Container stoppen
 ```
-cd backend
-npm run start
+docker-compose down
 ```

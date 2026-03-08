@@ -57,8 +57,6 @@ export class ProductService {
       .lean()
       .exec();
 
-    console.log(JSON.stringify(products, null, 2)); // zeigt alle Modelle sauber
-
     return products.map((p, index) => ({
       _id: p._id.toString(),
       code: p.code,

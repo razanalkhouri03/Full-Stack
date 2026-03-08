@@ -34,7 +34,6 @@ export default function Home() {
     try {
       const res = await fetch('http://localhost:3001/products');
       const data = (await res.json()) as Product[];
-      console.log(data);
       setProducts(data);
     } catch (error) {
       console.error(error);
